@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "672685137579",
+    "firebase_url": "https://healthy-habits-recommend-54d9a.firebaseio.com",
+    "project_id": "healthy-habits-recommend-54d9a",
+    "storage_bucket": "healthy-habits-recommend-54d9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672685137579:android:a5cbdf8953e07512",
+        "android_client_info": {
+          "package_name": "com.google.healthyhabitsrecommender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672685137579-ltai5g8lh9sbjrnfd3mlmvakjv5b67hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Gq-gmEIUMnnNd6DGFO07C3SjMxZ4_Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672685137579-ltai5g8lh9sbjrnfd3mlmvakjv5b67hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

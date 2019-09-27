@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Fitness Activity Recommender</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://fitbit.com/.well-known/assetlinks.json\" }]</string>
+    <string-array name="Activities">
+        <item>Aerobics</item>
+        <item>American football</item>
+        <item>Archery</item>
+        <item>Backpacking</item>
+        <item>Badminton</item>
+        <item>Ballet</item>
+        <item>Baseball</item>
+        <item>Basketball</item>
+        <item>Beach volleyball</item>
+        <item>Billiards</item>
+        <item>BMX bicycling</item>
+        <item>Bowling</item>
+        <item>Boxing</item>
+        <item>Broomball</item>
+        <item>Calisthenics</item>
+        <item>Canoeing</item>
+        <item>Cheerleading</item>
+        <item>Circuit training</item>
+        <item>Climbing hills</item>
+        <item>Cricket</item>
+        <item>Croquet</item>
+        <item>Cross country hiking</item>
+        <item>Cross country running</item>
+        <item>Curling</item>
+        <item>Dog sledding</item>
+        <item>Elliptical trainer</item>
+        <item>Fencing</item>
+        <item>Fitball exercise</item>
+        <item>Football</item>
+        <item>Freestyle wrestling</item>
+        <item>Frisbee playing</item>
+        <item>Golf</item>
+        <item>Handball</item>
+        <item>High ropes course</item>
+        <item>Hockey</item>
+        <item>Horseback riding</item>
+        <item>Ice dancing</item>
+        <item>Ice skating</item>
+        <item>Jai alai</item>
+        <item>Jet skiing</item>
+        <item>Jogging</item>
+        <item>Kayaking</item>
+        <item>Kickball</item>
+        <item>Lacrosse</item>
+        <item>Leisure bicycling</item>
+        <item>Martial arts</item>
+        <item>Mountain bicycling</item>
+        <item>Mountain climbing</item>
+        <item>Paddle boarding</item>
+        <item>Paddle boat</item>
+        <item>Paddleball</item>
+        <item>Pilates</item>
+        <item>Polo horse riding</item>
+        <item>Race walking</item>
+        <item>Racquetball</item>
+        <item>Rappelling</item>
+        <item>Resistance training (weight lifting - free weight)</item>
+        <item>Roller skating</item>
+        <item>Rope jumping</item>
+        <item>Rugby</item>
+        <item>Running</item>
+        <item>Salsa dancing</item>
+        <item>Skateboarding</item>
+        <item>Ski machine</item>
+        <item>Skiing</item>
+        <item>Skindiving</item>
+        <item>Skipping ropes</item>
+        <item>Sledding</item>
+        <item>Slimnastics</item>
+        <item>Snorkeling</item>
+        <item>Snow shoeing</item>
+        <item>Springboard diving</item>
+        <item>Squash</item>
+        <item>Stair-treadmill ergometer</item>
+        <item>Stationary bicycling</item>
+        <item>Stationary rowing</item>
+        <item>Surfing</item>
+        <item>Swimming</item>
+        <item>Table tennis</item>
+        <item>Tai chi</item>
+        <item>Tap</item>
+        <item>Tennis</item>
+        <item>Track and field</item>
+        <item>Unicycling</item>
+        <item>Volleyball</item>
+        <item>Walking</item>
+        <item>Wallyball</item>
+        <item>Water calisthenics</item>
+        <item>Water jogging</item>
+        <item>Water polo</item>
+        <item>Water skiing</item>
+        <item>Water volleyball</item>
+        <item>Water walking</item>
+        <item>Whitewater canoeing</item>
+        <item>Windsurfing</item>
+        <item>Yoga</item>
+    </string-array>
+</resources>

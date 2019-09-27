@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recommLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2EBF2"
+    tools:context="com.google.healthyhabitsrecommender.RecommendationsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#B39DDB"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="Home"
+            android:textColor="#1b1b1b"
+            app:layout_constraintBottom_toTopOf="@+id/btnGenerate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity5" />
+
+        <Button
+            android:id="@+id/activity1"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#FFF9C4"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="No Activity Yet"
+            android:textColor="#1b1b1b"
+            app:layout_constraintEnd_toStartOf="@+id/text1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <Button
+            android:id="@+id/activity2"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#FFF9C4"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="No Activity Yet"
+            android:textColor="#1b1b1b"
+            app:layout_constraintEnd_toStartOf="@+id/text2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity1" />
+
+
+        <Button
+            android:id="@+id/activity3"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#FFF9C4"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="No Activity Yet"
+            android:textColor="#1b1b1b"
+            app:layout_constraintEnd_toStartOf="@+id/text3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity2" />
+
+        <Button
+            android:id="@+id/activity4"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#FFF9C4"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="No Activity Yet"
+            android:textColor="#1b1b1b"
+            app:layout_constraintEnd_toStartOf="@+id/text4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity3" />
+
+        <Button
+            android:id="@+id/activity5"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#FFF9C4"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="No Activity Yet"
+            android:textColor="#1b1b1b"
+            app:layout_constraintEnd_toStartOf="@+id/text5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity4" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="Recommended Activities"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#1b1b1b"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="Click on an activity for details"
+            android:textColor="#B71C1C"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/walter_turncoat"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Kcals"
+            android:textColor="#1b1b1b"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/activity1"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/walter_turncoat"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Kcals"
+            android:textColor="#1b1b1b"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/activity2"
+            app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/walter_turncoat"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Kcals"
+            android:textColor="#1b1b1b"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/activity3"
+            app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/walter_turncoat"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Kcals"
+            android:textColor="#1b1b1b"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/activity4"
+            app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/walter_turncoat"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Kcals"
+            android:textColor="#1b1b1b"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/activity5"
+            app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="#A5D6A7"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="Generate Recommendations"
+            android:textColor="#1b1b1b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnHome" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
