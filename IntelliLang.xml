@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="AIDL" injector-id="xml">
+      <display-name>com.google.android.material.floatingactionbutton.FloatingActionButton/@src</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("src")).withNamespace(string().equalTo("http://schemas.android.com/apk/res/android")).withParent(xmlTag().withLocalName(string().matches("com.google.android.material.floatingactionbutton.FloatingActionButton")))]]></place>
+    </injection>
+  </component>
+</application>
