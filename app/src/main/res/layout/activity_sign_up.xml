@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2EBF2"
+    tools:context="com.google.healthyhabitsrecommender.SignUpActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#B39DDB"
+            android:fontFamily="@font/walter_turncoat"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
+            android:text="Register"
+            android:textAlignment="center"
+            android:textColor="#1b1b1b"
+            app:layout_constraintBottom_toTopOf="@+id/btnAccount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPassVerify" />
+
+        <Button
+            android:id="@+id/btnAccount"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="#A5D6A7"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="Already Have an Account?"
+            android:textAlignment="center"
+            android:textColor="#1b1b1b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
+
+        <EditText
+            android:id="@+id/textPassVerify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="40sp"
+            android:ems="10"
+            android:hint="Reenter Password"
+            android:inputType="textPassword"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
+            android:textColor="#1b1b1b"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/textPassword"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <EditText
+            android:id="@+id/textEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40sp"
+            android:hint="Enter Email"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
+            android:textColor="#1b1b1b"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/mainTitle"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <EditText
+            android:id="@+id/textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="40sp"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
+            android:textColor="#1b1b1b"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/textEmail"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/main_logo" />
+
+        <TextView
+            android:id="@+id/mainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/walter_turncoat"
+            android:text="Create New Account"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#1b1b1b"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

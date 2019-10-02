@@ -1,0 +1,37 @@
+[debug] [2019-08-23T12:26:38.054Z] ----------------------------------------------------------------------
+[debug] [2019-08-23T12:26:38.059Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2019-08-23T12:26:38.059Z] CLI Version:   7.2.4
+[debug] [2019-08-23T12:26:38.059Z] Platform:      darwin
+[debug] [2019-08-23T12:26:38.059Z] Node Version:  v10.16.0
+[debug] [2019-08-23T12:26:38.061Z] Time:          Fri Aug 23 2019 13:26:38 GMT+0100 (British Summer Time)
+[debug] [2019-08-23T12:26:38.062Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-23T12:26:38.074Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-23T12:26:38.075Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/harveybenjen/AndroidStudioProjects/HealthyHabitsRecommender
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-08-23T16:12:19.866Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:69:28)
+    at Interface._setRawMode (readline.js:269:16)
+    at Interface.close (readline.js:394:10)
+    at ReadStream.ontermend (readline.js:180:10)
+    at ReadStream.emit (events.js:203:15)
+    at ReadStream.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1129:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
